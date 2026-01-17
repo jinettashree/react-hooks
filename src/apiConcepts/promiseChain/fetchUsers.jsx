@@ -11,7 +11,7 @@ function FetchUsers(){
             setUser(data);
         })
         .catch(error => {
-            console.log("Error;",error);
+            console.log("Error:",error);
         });
         
     }, []);

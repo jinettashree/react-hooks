@@ -1,24 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css'
-{/*import InputPage from './useState/input form'
-import TextChange from './useState/textChange';
-import ToggleParagraph from './useState/toggleParagraph';
-import ToggleDarkWhiteMode from './useState/toggleMode';
-import SwitchImage from './useState/switchImage';*/}
+import './App.css';
 
-import Quiz from './useState/quiz';
-
+import UserForm from './useReducer/UserForm';
 function App() {
 
   return (
     <>
-      {/* <InputPage/>
-      <TextChange/>
-      <ToggleParagraph/>
-      <ToggleDarkWhiteMode/>
-      <SwitchImage/> */}
-      
-      <Quiz/>
+      <UserForm/>
     </>
   )
 }
